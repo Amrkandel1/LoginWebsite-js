@@ -1,0 +1,84 @@
+/*? ----------- <<======main-rules-start======>> ------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap%27');
+body{
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+}
+/*?----------- <<======main-rules-end======>> --------------*/
+
+/*?----------- <<======login-page-start======>> ------------*/
+.innerdiv{
+    width: 64%;
+    padding: 3.125rem 3.125rem;
+    box-shadow: -0.3125rem 0.125rem 3.375rem -0.5625rem rgba(0, 0, 0, 1);
+}
+.title1{
+    font-size: 2.5rem;
+    color: #17A2B8;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+}
+.innerinputs{
+    width: 100%;
+}
+.form-control{
+    background-color: #24353f;
+    color: #fff;
+    border: 0.0625rem solid #ced4da;
+}
+.form-control:focus{
+    background-color: #24353f;
+    color: #fff;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.form-control::placeholder{
+    color: rgb(182, 182, 182) !important;
+}
+.btn-outline-info{
+    color: #17a2b8;
+    background-color: transparent;
+    border-color: #17a2b8;
+}
+.btn-outline-info:hover{
+    color: white;
+    background-color: #17A2B8;
+}
+.parag{
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+.signuppage{
+    text-decoration: none;
+}
+.signuppage:hover{
+    text-decoration:underline;
+}
+/*?----------- <<======login-page-end======>> -------------*/
+
+/*?----------- <<======home-page-start======>> ------------*/
+.homepagea{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #fff;
+}
+.navbar{
+    box-shadow: rgb(0, 0, 0) -0.3125rem 0.125rem 3.375rem -0.5625rem;
+}
+.btn-outline-warning {
+    color: rgba(255,255,255,.5);
+    background-color: transparent;
+    border-color: #ffc107;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.btn-outline-warning:hover{
+    color: #fff;
+}
+.title2{
+    box-shadow: -0.3125rem 0.125rem 3.375rem -0.5625rem rgba(0, 0, 0, 1);
+}
+.title2 h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+/*?----------- <<======home-page-end======>> -------------*/

@@ -1,0 +1,10 @@
+@media screen and (max-width:1200px) {  
+    .innerdiv{
+        width: 75% ;
+    }   
+}
+@media screen and (max-width:992px) {
+    .logout1{
+        margin-top: 20px;
+    }
+}
